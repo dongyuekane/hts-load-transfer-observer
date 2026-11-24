@@ -1,0 +1,64 @@
+{
+  "selection": "Largest descriptive six-to-36-state gain in the unchanged confirmation set; no tuning.",
+  "config": "confirmation_05",
+  "load": 72.0,
+  "cooling": 0.38,
+  "delay": 240,
+  "truth": 9,
+  "actual_state": [
+    79.67589592655393,
+    78.19247660061019
+  ],
+  "observations": [
+    77.83657721046117,
+    77.9204031717563,
+    78.1876319665235,
+    78.13786319955193
+  ],
+  "methods": {
+    "single_box": {
+      "cells": 1,
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "Tc_upper": 83.06375836739133,
+      "Tn_upper": 78.23786319955192,
+      "deadline": 584.0
+    },
+    "state_bank": {
+      "cells": 6,
+      "counts": [
+        6,
+        6,
+        6
+      ],
+      "Tc_upper": 83.06375836739133,
+      "Tn_upper": 78.23786319955192,
+      "deadline": 584.0
+    },
+    "state_fine_bank": {
+      "cells": 31,
+      "counts": [
+        36,
+        35,
+        31
+      ],
+      "Tc_upper": 82.31318893265474,
+      "Tn_upper": 78.23786319955192,
+      "deadline": 778.0
+    },
+    "parameter_bank": {
+      "cells": 31,
+      "counts": [
+        36,
+        36,
+        31
+      ],
+      "Tc_upper": 82.93293405751943,
+      "Tn_upper": 78.23786319955192,
+      "deadline": 886.0
+    }
+  }
+}

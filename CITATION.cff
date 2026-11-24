@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository."
+title: "Observation-conditioned thermal transfer deadlines for superconducting cables"
+type: software
+authors:
+  - family-names: Kan
+    given-names: Dongyue

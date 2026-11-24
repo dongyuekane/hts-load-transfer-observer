@@ -1,0 +1,58 @@
+{
+  "confirmation_configurations": 12,
+  "continuous_truths_per_configuration": 12,
+  "total_queries": 144,
+  "mean_convention": "Abstention deadline -1 is mapped to zero only for mean/gain summaries; approvals are separately reported.",
+  "methods": {
+    "single_box": {
+      "mean_deadline_s": 16.11111111111111,
+      "approvals": 12,
+      "truth_not_retained": 0,
+      "unsafe_replays": 0,
+      "mean_gain_vs_six_state_s": -45.333333333333336,
+      "median_gain_vs_six_state_s": 0.0,
+      "improved_queries_vs_six": 0,
+      "worse_queries_vs_six": 20,
+      "median_decision_ms": 16.332583501935005
+    },
+    "state_bank": {
+      "mean_deadline_s": 61.44444444444444,
+      "approvals": 27,
+      "truth_not_retained": 0,
+      "unsafe_replays": 0,
+      "mean_gain_vs_six_state_s": 0.0,
+      "median_gain_vs_six_state_s": 0.0,
+      "improved_queries_vs_six": 0,
+      "worse_queries_vs_six": 0,
+      "median_decision_ms": 34.911395981907845
+    },
+    "state_fine_bank": {
+      "mean_deadline_s": 71.56944444444444,
+      "approvals": 34,
+      "truth_not_retained": 0,
+      "unsafe_replays": 0,
+      "mean_gain_vs_six_state_s": 10.125,
+      "median_gain_vs_six_state_s": 0.0,
+      "improved_queries_vs_six": 25,
+      "worse_queries_vs_six": 0,
+      "median_decision_ms": 39.571375120431185
+    },
+    "parameter_bank": {
+      "mean_deadline_s": 69.58333333333333,
+      "approvals": 27,
+      "truth_not_retained": 0,
+      "unsafe_replays": 0,
+      "mean_gain_vs_six_state_s": 8.13888888888889,
+      "median_gain_vs_six_state_s": 0.0,
+      "improved_queries_vs_six": 13,
+      "worse_queries_vs_six": 0,
+      "median_decision_ms": 45.47695815563202
+    }
+  },
+  "step_refinement": {
+    "classification_changes": 0,
+    "max_absolute_deadline_change_s": 1.0,
+    "truth_membership_failures": 0,
+    "unsafe_replays": 0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "configs": 12,
+  "truths": 144,
+  "step_s": 1.0,
+  "single_box": {
+    "mean_deadline_s": 16.17361111111111,
+    "mean_gain_vs_single_s": 0.0,
+    "median_gain_vs_single_s": 0.0,
+    "improved_vs_single": 0,
+    "mean_gain_vs_state_s": -45.36805555555556,
+    "median_gain_vs_state_s": 0.0,
+    "improved_vs_state": 0,
+    "approvals": 12,
+    "truth_not_retained": 0,
+    "pre_cross": 0,
+    "post_cross": 0,
+    "total_cpu_s": 7.70603341050446,
+    "median_cpu_ms": 42.77099994942546
+  },
+  "state_bank": {
+    "mean_deadline_s": 61.541666666666664,
+    "mean_gain_vs_single_s": 45.36805555555556,
+    "median_gain_vs_single_s": 0.0,
+    "improved_vs_single": 20,
+    "mean_gain_vs_state_s": 0.0,
+    "median_gain_vs_state_s": 0.0,
+    "improved_vs_state": 0,
+    "approvals": 27,
+    "truth_not_retained": 0,
+    "pre_cross": 0,
+    "post_cross": 0,
+    "total_cpu_s": 15.139958115294576,
+    "median_cpu_ms": 90.83391632884741
+  },
+  "parameter_bank": {
+    "mean_deadline_s": 69.68055555555556,
+    "mean_gain_vs_single_s": 53.50694444444444,
+    "median_gain_vs_single_s": 0.0,
+    "improved_vs_single": 27,
+    "mean_gain_vs_state_s": 8.13888888888889,
+    "median_gain_vs_state_s": 0.0,
+    "improved_vs_state": 13,
+    "approvals": 27,
+    "truth_not_retained": 0,
+    "pre_cross": 0,
+    "post_cross": 0,
+    "total_cpu_s": 19.448157106526196,
+    "median_cpu_ms": 113.44568757340312
+  }
+}

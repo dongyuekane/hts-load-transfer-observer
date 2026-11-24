@@ -1,0 +1,16 @@
+{
+  "2.0": {
+    "mean_deadline_s": 71.56944444444444,
+    "approvals": 34,
+    "truth_not_retained": 0,
+    "pre_cross": 0,
+    "post_cross": 0
+  },
+  "1.0": {
+    "mean_deadline_s": 71.65972222222223,
+    "approvals": 34,
+    "truth_not_retained": 0,
+    "pre_cross": 0,
+    "post_cross": 0
+  }
+}

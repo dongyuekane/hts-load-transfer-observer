@@ -1,0 +1,40 @@
+{
+  "frozen_before_outcomes": "2026-11-14",
+  "seed": 2026111496,
+  "continuous_initial_Tc_K": [
+    77.8,
+    83.8
+  ],
+  "initial_coolant": "The measured y0\u00b10.1K interval, common to every method.",
+  "continuous_Cc_Cn_multiplier": [
+    0.8,
+    1.2
+  ],
+  "loss_multiplier": [
+    0.9,
+    1.1
+  ],
+  "conductance_multiplier": [
+    0.9,
+    1.1
+  ],
+  "observations_s": [
+    0,
+    60,
+    120,
+    180
+  ],
+  "noise_bound_K": 0.1,
+  "methods": {
+    "single_box": "One continuous state and parameter box with every observation update.",
+    "state_bank": "Six initial-Tc intervals, full continuous heat-capacity uncertainty in each.",
+    "parameter_bank": "Same six Tc intervals crossed with three Cc and two Cn intervals:36 cells; continuous coverage unchanged."
+  },
+  "criterion": "Numerical comparison trajectories reach common robust invariant rectangles after a chosen wait and the command delay.",
+  "primary": "Paired deadline gain over both single-box and same-state-partition baseline, independently generated continuous truths.",
+  "secondary": "Set membership retention, unsafe delayed-transfer replay, CPU including filtering+ODE propagation, per-case gains/median and action approvals.",
+  "selection": "All methods predeclared; no method/hyperparameter changes after confirmation. Development4x12 then confirmation12x12.",
+  "integration": "RK4 step2s; 1s repeat on all confirmation queries; DOP853 independent plant at rtol1e-10/atol1e-11; finite3600s replay after transfer.",
+  "guarantee_scope": "Analytic differential-comparison argument for stated continuous parameter intervals; implementation numerically validated, not outward-rounded or machine-certified.",
+  "source_relation": "Extension of original two-temperature synthetic plant, not calibrated to OPENSC2 Case3."
+}

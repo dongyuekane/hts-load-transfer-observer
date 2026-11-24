@@ -1,0 +1,26 @@
+{
+  "single_box": {
+    "queries": 48,
+    "approvals": 4,
+    "empty_sets": 0,
+    "guard_crossings": 0
+  },
+  "state_bank": {
+    "queries": 48,
+    "approvals": 9,
+    "empty_sets": 0,
+    "guard_crossings": 0
+  },
+  "state_fine_bank": {
+    "queries": 48,
+    "approvals": 10,
+    "empty_sets": 0,
+    "guard_crossings": 0
+  },
+  "parameter_bank": {
+    "queries": 48,
+    "approvals": 9,
+    "empty_sets": 0,
+    "guard_crossings": 0
+  }
+}
